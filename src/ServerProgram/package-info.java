@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author robot
- *
- */
-package ServerProgram;
