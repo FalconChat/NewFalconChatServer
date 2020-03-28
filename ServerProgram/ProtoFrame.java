@@ -38,8 +38,9 @@ public class ProtoFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public ProtoFrame() {
+		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 412, 651);
+		setBounds(100, 100, 400, 632);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

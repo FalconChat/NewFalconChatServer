@@ -46,8 +46,9 @@ public static String INPUTPW = "";
 	 * Create the frame.
 	 */
 	public ProtoLoginFrame() {
+		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 317, 553);
+		setBounds(100, 100, 304, 535);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
